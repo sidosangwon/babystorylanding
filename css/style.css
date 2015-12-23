@@ -240,8 +240,8 @@ hr{
     white-space: nowrap;
 }
 .btn-new:hover,.btn-new:focus{
-    background: #FC453F;
-    color: #fff;
+    /*background: #FC453F;*/
+    /*color: #fff;*/
     text-decoration: none;
     outline: none;
 }
@@ -726,6 +726,24 @@ iframe,embed,object {
 /* parallax ------------------------------------------------------- */
 .parallaxBg {
     background: url(../images/bg2.jpg) no-repeat center center fixed #FF6863;
+    background-attachment: fixed !important;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+}
+.parallaxBg2 {
+
+
+    background: url(../images/bg3.jpg) no-repeat center top fixed #FFFFFF;
+
     background-attachment: fixed !important;
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
