@@ -1264,6 +1264,8 @@ footer p a:hover {
 }
 .mainTitle{font-size:4em; font-weight:bold; line-height:1.2em;}
 .mainPhone{width:75% !important;}
+.topBar{height:60px;}
+.topPH{height:65px; margin-right:25px; margin-top:15px;}
 /* responsive style ----------------------------------------------------------------- */
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
@@ -1273,6 +1275,8 @@ footer p a:hover {
     .video .fluid-width-video-wrapper{ min-height: 400px;}
     .mainTitle{font-size:4em; font-weight:bold; line-height:1.2em;}
     .mainPhone{width:75% !important;}
+    .topBar{height:60px;}
+    .topPH{height:65px; margin-right:25px; margin-top:15px;}
 }
 
 /* Medium Devices, Desktops */
@@ -1281,6 +1285,8 @@ footer p a:hover {
 
     .mainTitle{font-size:4em; font-weight:bold; line-height:1.2em;}
     .mainPhone{width:75% !important;}
+    .topBar{height:60px;}
+    .topPH{height:65px; margin-right:25px; margin-top:15px;}
     #firstFeature .phones {
         height: 400px;
         margin: 0 auto;
@@ -1343,11 +1349,14 @@ footer p a:hover {
     .downloadNumber{font-size:60px; }
     .mainTitle{font-size:3em; font-weight:bold; line-height:1.2em;}
     .mainPhone{width:85% !important;}
+    .topBar{height:60px;}
+    
 }
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
     .mainTitle{font-size:2.5em; font-weight:bold; line-height:1.2em;}
     .mainPhone{width:90% !important;}
+    .topBar{height:50px;}
     .parallaxBg {
         background-attachment: inherit !important;
     }
